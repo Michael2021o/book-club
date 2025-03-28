@@ -1,0 +1,399 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.hero-section {
+  background-color: #fff6f4;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+  padding-top: 4.8rem;
+  margin-bottom: 4.8rem;
+}
+
+.hero-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  justify-content: center;
+}
+
+.hero-heading {
+  font-size: 8rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.hero-text {
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+
+.hero-btn {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1.4rem;
+  border: 2px solid #333;
+  align-self: flex-start;
+  border-radius: 0.5rem;
+  background-color: #fffaf9;
+
+  display: flex;
+  gap: 1.4rem;
+}
+
+.hero img {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+.hero-review-img {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.hero-small-img img {
+  margin-right: -1.5rem;
+  border: 3px solid #fff6f4;
+}
+
+.hero-small-img img:last-child {
+  margin-right: 0;
+}
+
+.hero-small-img img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.star-icon {
+  color: rgb(223, 177, 27);
+  font-size: 1.6rem;
+  /* margin-bottom: 0.5rem; */
+}
+
+.hero-review-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.review-numbers {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.read-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+  align-items: center;
+  margin-bottom: 4.8rem;
+}
+
+.read-img {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+.read-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.8rem;
+}
+
+.read-text-box h2 {
+  font-size: 5.4rem;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 4.8rem;
+}
+
+.read-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.read-list li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.read-list p {
+  font-size: 1.8rem;
+}
+
+.tick-icon {
+  font-size: 2.8rem;
+}
+
+.journey {
+  background-color: #fffaf9;
+  padding: 6.8rem;
+  border-radius: 2rem;
+  margin-bottom: 4.8rem;
+}
+
+.journey--title {
+  font-size: 4.8rem;
+  font-weight: 500;
+  text-align: center;
+  color: #222;
+  margin-bottom: 4.8rem;
+}
+
+.tier-box {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  gap: 4.4rem;
+}
+
+.number {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.4rem;
+}
+
+.number-box {
+  /* justify-self: flex-start; */
+  border: 2px solid #333;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+}
+
+.tier-text {
+  font-weight: 500;
+}
+
+.number-arrow {
+  color: #e69db8;
+  font-size: 3.8rem;
+  font-weight: 600;
+}
+
+.membership-title {
+  font-size: 4.8rem;
+  text-align: center;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 4.8rem;
+}
+
+.memebership-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  height: 34rem;
+}
+
+.membership--box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.8rem;
+  font-size: 1.8rem;
+  border: 1px solid #7777773b;
+  padding: 2.6rem;
+  border-radius: 1rem;
+
+  height: 90%;
+}
+
+.membership--box:nth-child(2) {
+  background-color: #fffaf9;
+  height: 100%;
+}
+
+.option-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.price::after {
+  content: "";
+  border-bottom: 2px solid #7777773b;
+  width: 100%;
+  position: absolute;
+  bottom: -2rem;
+}
+
+.price span {
+  font-size: 3.4rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.booking--list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.4rem;
+  gap: 1rem;
+}
+
+.booking--list:last-child {
+  margin-bottom: 0;
+  margin-bottom: 2rem;
+}
+
+.tick-icon-sub {
+  font-size: 1.8rem;
+}
+
+.sub-btn {
+  border: 2px solid #333;
+  padding: 1.2rem 2.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 0.7rem;
+  text-align: center;
+  color: #222;
+}
+
+/* .pro {
+} */
+
+.pro .sub-btn {
+  padding: 1.2rem 4.8rem;
+}
+
+.testimonial-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+  max-width: 50%;
+  margin-bottom: 4.8rem;
+}
+.testimonial--icon {
+  font-size: 3rem;
+}
+.testimonial-text {
+  font-size: 3.6rem;
+  font-weight: 600;
+  color: #222;
+  line-height: 1.4;
+  text-align: center;
+}
+.testimonial-author {
+  font-size: 2rem;
+}
+
+footer {
+  background-color: #8967b3;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+  padding: 4.8rem;
+}
+
+.footer-title {
+  font-size: 4rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.footer-btn {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  border: 2px solid #fff;
+  padding: 2rem 4rem;
+  border-radius: 0.8rem;
+}
+
+.footer-icon {
+}
+
+.footer-review {
+  color: #fff;
+}
+
+.footer-img img {
+  border: 3px solid #8967b3;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  color: #fff;
+  max-width: 130rem;
+  margin: 0 auto;
+  border-top: 2px solid #ffffff75;
+  padding: 2rem 0;
+}
+
+.social--links {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.social-links img {
+  width: 2.4rem;
+  height: 2.4rem;
+  filter: brightness(0) saturate(100%) invert(99%) sepia(2%) saturate(1318%)
+    hue-rotate(180deg) brightness(118%) contrast(100%);
+  transition: all 0.6s;
+}
+
+.social-links img:hover {
+  cursor: pointer;
+  transform: scaleX(-1);
+  filter: brightness(0) saturate(100%) invert(76%) sepia(4%) saturate(3423%)
+    hue-rotate(294deg) brightness(95%) contrast(89%);
+}
